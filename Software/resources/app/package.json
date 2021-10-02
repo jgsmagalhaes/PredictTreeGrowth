@@ -1,0 +1,48 @@
+{
+  "name": "predict-bai-algorithm",
+  "author": "Gur Kohli (gkohli@sfu.ca)",
+  "version": "1.0.0",
+  "description": "Predict BAI Algorithm.",
+  "main": "main_process.js",
+  "scripts": {
+    "compile": "electron-webpack",
+    "bundle": "webpack --mode development",
+    "serve": "electron .",
+    "start": "npm-run-all --parallel bundle serve",
+    "package": "../node_modules/.bin/electron-packager .. --platform=win32,darwin --arch=x64"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "electron": "^13.1.7",
+    "electron-packager": "^15.3.0",
+    "electron-reload": "^1.2.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.10",
+    "npm-run-all": "^4.1.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-spawn-plugin": "^0.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "csv-parser": "^1.12.1",
+    "electron-webpack": "^2.8.2",
+    "express": "^4.16.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "build": {
+    "appId": "predict_bai_algorithm",
+    "mac": {
+      "category": "Utility"
+    }
+  }
+}

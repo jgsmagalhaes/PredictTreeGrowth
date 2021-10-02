@@ -1,0 +1,12 @@
+name: predict_bai
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - tensorflow==1.11.0
+  - scikit-learn==0.20.0
+  - matplotlib==3.0.1
+  - pandas==0.23.4
+  - numpy==1.15.3
+  - keras==2.2.4
+prefix: /Users/gurkohli/miniconda2/envs/predict_bai

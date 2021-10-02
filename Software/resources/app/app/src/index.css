@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#title {
+  text-align: center;
+}
+
+table {
+  /* width: 100%; */
+  text-align: center;
+  padding-bottom: 10px;
+  table-layout: fixed;
+}
+
+th, td {
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.location-button {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.location-name {
+  font-size: 14px;
+}
+
+.actions {
+  float: left;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.flex-horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-vert {
+  display: flex;
+  flex-direction: column;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.tree-split-tree-item {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.tree-split-is-selected {
+  background: lightblue;
+}
+
+.tree-split-container {
+  justify-content: space-between;
+}
+
+.tree-split-training-container,
+.tree-split-testing-container {
+  width: 40%;
+  height: 300px;
+  overflow: auto;
+  border: 1px solid black;
+}
+
+.tree-split-op-container {
+  justify-content: space-around;
+}
+
+.tree-split-op {
+  font-size: 24px;
+}

@@ -1,0 +1,1 @@
+activate predict_bai && cd "C:\PredictTreeGrowth\algorithm" && python main_treesplit.py --hyperparameters="C:\PredictTreeGrowth\hyperparameters.json"
